@@ -59,7 +59,7 @@ scrambleDAB: (A847)
   02:A86B                  ld   (seed_scramble[3]),a
   02:A86E                  ret
 
-; Load seed[0]-DABB into seed_scramble[0]-seed_scramble[3] before scrambling the latter
+; Load seed[0]-seed[4] into seed_scramble[0]-seed_scramble[3] before scrambling the latter
 ; de and bc are pass in
 ; a is returned by the fact that scrambleDAB also returns a
 loadAndScrambleDAB: (A86F)

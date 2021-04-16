@@ -134,7 +134,7 @@ void initGenerator(uint16_t map_gen_x, uint16_t map_gen_y)
 	de = (scrambleDAB() & 0x07) << 4;
 	bc = (((bc & 0xFF) * 4) + (bc >> 8)) & 0xFF;
 	bc = secret_salt[bc + de] | (scrambleDAB() & 0x30);
-	hNPCSpriteOffset = bc;
+	hNPCSpriteOffset = (bc & 0xFF);
 	uint8_t h = map_gen_y >> 8;
 	uint8_t l = map_gen_y & 0xFF;
 	uint8_t d = map_gen_x >> 8;
