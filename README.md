@@ -17,6 +17,6 @@ gcc -Wall -pedantic -O3 "Bruteforce.c" -o "Bruteforce"
 
 You can change the starting seed to whatever you want, it's currently set to start at the solution.
 
-This whole thing is really messy and not well named, but it definitely works.
+This whole thing is really messy and not well named, but it definitely works. Beware however that the .asm's comments may be flat incorrect in some places.
 
 I wanna thank TheZZAZZGlitch for the event. It was really tough this year and I'm hopeful for the next one, since I met my own personal goal at least!
