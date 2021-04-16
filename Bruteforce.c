@@ -649,7 +649,7 @@ void incrementSeed()
 int main()
 {
 	//We use this to check at the end if we've searched the entire seed space
-	uint8_t starting_seed[4] = {0x65, 0x21, 0xE0, 0xB1};
+	uint8_t starting_seed[4] = {0x65, 0x21, 0xE0, 0xA1};
 	printf("Starting from seed: 0x");
 	for(uint8_t i = 0; i < 4; i++)
 	{
