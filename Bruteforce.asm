@@ -2,6 +2,37 @@ main_chunk = D8C8
 seed = DAB8
 seed_scramble[4] = DABC
 chunk_buffer[4] = D170
+Generator X position = DAB4-DAB5
+Generator Y position = DAB6-DAB7
+
+wYCoord = D361
+wXCoord = D362
+
+Completion password = DAC0-DAC4
+DAC0 = Time
+
+item count = DAE4
+Inventory = DAE5-DB33
+
+Max HP = DADF
+Current HP = DAE0
+level = DAE1
+EXP until next level = DAE2
+
+00 = right house
+0A = flatland
+0B = tall grass
+0F = tree
+32 = trees with interactable
+33 = trees with interactable
+34 = trees with interactable
+60 = trees with interactable
+6C = tree pass horizontal
+6D = tree pass vertical
+6E = tree pass vertical
+6F = tree pass horizontal
+74 = Partial flower
+7A = Full flower
 
 getInitPlayerPos: (A5BE)   ld   hl,main_chunk
   02:A5C1                  ld   bc,NULL
